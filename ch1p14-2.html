@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2D and 3D Drawing Support</title>
+	<script type="application/x-javascript">
+		function displayCanvas() {
+			var mycanvas = document.getElementById("myCanvas");
+			if (mycanvas.getContext) {
+				var contex = mycanvas.getContext('2d');
+				context.fillStyle = "rgb(50,0,0)";
+				context.fillRect (0,0,150,75);
+			}
+		}
+	</script>
+</head>
+<body onload="displayCanvas();">
+	<canvas id="myCanvas" width="300" height="200">
+		Your browser doesn't support the canvas element.
+	</canvas>
+</body>
+</html>
