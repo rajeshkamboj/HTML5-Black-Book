@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Output Element</title>
+    <script type="text/javascript">
+        function add()
+        {
+            document.forms["form"][resultadd].value=23+123;
+        }
+    </script>
+</head>
+<body onload="add()">
+    <h2>Output Element</h2>
+    <form action="" name="form">
+        Adding the two numbers: <output name="resultadd"></output>
+    </form>   
+</body>
+</html>
