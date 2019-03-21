@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multimedia</title>
+</head>
+<body>
+    <h2>Video using OBJECT element</h2>
+    <object data="ref/flame.avi" type="video/quicktime" id="video" width="100px" height="100px">
+    <param name="BorderStyle" value="1">
+    <param name=autoplay value="true">
+    </object>
+
+    <h2>Audio Play</h2>
+    <audio src="ref/1MG.ogg" autoplay="true">
+    Your browser doesn't support the Audio Element
+    </audio>
+
+    <h2>Video Element</h2>
+    <video src="ref/flame.avi" controls></video>
+
+    <h2>Embed Audio</h2>
+    <embed src="ref/1MG.ogg" width=400 height=200 type="">
+
+    <h2>Embedding Youtube Video in Object PARAMs</h2>
+    <object width="640px" height="385px">
+        <param name="movie" value="https://www.youtube.com/watch?v=SUp7_GcI5Ho"></param>
+        <param name="allowFullScreen" value="true"></param>
+        <embed src="https://www.youtube.com/watch?v=SUp7_GcI5Ho" type="application/x-shockwave-flash" allowscriptaccess="always" allowFullScreen="true" width="640px" height="385px"></embed>
+    </object>
+</body>
+</html>

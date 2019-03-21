@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interactive Elements</title>
+</head>
+<body>
+    <h3>Summary in Details Element</h3>
+    <details>
+        <summary>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione culpa ea consectetur architecto veritatis hic consequuntur, laudantium asperiores itaque soluta earum voluptatum placeat atque natus blanditiis unde nisi expedita.
+        </summary>
+    </details>
+
+    <h3>Menu Elements</h3>
+    <menu>
+        <li><input type="radio"/>Bugatti</li>
+        <li><input type="radio"/>Volkvagan</li>
+    </menu>
+
+    <menu>
+        <command type="command">Execute</command>
+    </menu>
+
+    <h3>Open the task manager</h3>
+    press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DEL</kbd>
+
+    <h2>Use of command element</h2>
+    <h3>Show alert on Click</h3>
+    <menu>
+        <command onclick="alert('Hello, we are using command element')">
+            <input type="submit" value="Click Here">
+        </command>
+    </menu>
+
+    <h4>Changing color of Page</h4>
+    <menu>
+        <li>
+            <command type="radio" radiogroup="bgcolor" onclick="document.bgColor='yellow'">Yellow</command>
+        </li>
+        <li>
+                <command type="radio" radiogroup="bgcolor" onclick="document.bgColor='orange'">Orange</command>
+            </li>
+            <li>
+                    <command type="radio" radiogroup="bgcolor" onclick="document.bgColor='white'">White</command>
+                </li>
+    
+    </menu>
+</body>
+</html>
