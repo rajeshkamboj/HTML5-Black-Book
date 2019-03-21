@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RowSpan and ColSpan</title>
+</head>
+<body>
+    <table style="border:solid black 1px;">
+        <col style="background-color:salmon;">
+<tr>
+    <th rowspan="3">My Name is Khan and I am Not a Terrorist</th>
+    <th>Amir Khan</th>
+    <th>Shahrukh Khan</th>
+    <th>Salman Khan</th>
+    <!-- Look carefully, here first column has only one row spanned in 3 rows, so it doesn't contain any value below -->
+</tr>
+<tr>
+    <td>This</td>
+    <td>That</td>
+    <td>and Blah</td>
+</tr>
+<tr>
+    <td>This</td>
+    <td>That</td>
+    <td>and Blah</td>
+</tr>
+    </table>
+<!-- Here comes the second table with use of ColSpan -->
+<table border="1">
+<tr>
+    <th colspan="2">Hello I am a Minion from Dr Gru</th>
+    <th>Bello</th>
+    <!-- Ismein pehla th 2 ke barabar hai aur doosra th 1 ke brabar so total 3 column hain, so accordingly humne 3-3 td liye hain niche -->
+</tr>
+<tr>
+    <td>one</td>
+    <td>two</td>
+    <td>three</td>
+</tr>
+<tr>
+    <td>four</td>
+    <td>five</td>
+    <td>six</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nesting Tables</title>
+</head>
+<body>
+<table border="1">
+<colgroup span="2" style="background-color:seashell;" />
+<colgroup style="background-color:red;" />
+<caption>This is my default caption for table inside table</caption>
+<tr>
+    <th>Name</th>
+    <th>Class</th>
+    <th>School</th>
+</tr>
+<tr>
+    <td>Raju</td>
+    <td>Dasmi</td>
+    <td>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Place</th>
+            </tr>
+            <tr>
+                <td>Sawan</td>
+                <td>Sirsa</td>
+            </tr>
+        </table>
+    </td>
+</tr>
+</table>
+</body>
+</html>
